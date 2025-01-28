@@ -13,7 +13,7 @@ namespace SultanSklepBackend.Models
         public string MNumber { get; set; }
         public string Flat { get; set; }
         public string Post { get; set; }
-        public string Not { get; set; }
+        public string Notes { get; set; }
 
     }
 }

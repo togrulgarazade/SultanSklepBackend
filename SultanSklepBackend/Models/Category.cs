@@ -2,15 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Identity;
 
 namespace SultanSklepBackend.Models
 {
-    public class AppUser : IdentityUser
+    public class Category
     {
-        public string FullName { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
-        public string Surname { get; set; }
         public DateTime CreateDT { get; set; }
+        public bool IsDeleted { get; set; }
+        public List<CategoryImage> CategoryImages{ get; set; }
+
     }
 }
