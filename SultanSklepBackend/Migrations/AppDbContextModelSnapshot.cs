@@ -451,6 +451,9 @@ namespace SultanSklepBackend.Migrations
                     b.Property<string>("OperationNumber")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("OrderNotes")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("ProductID")
                         .HasColumnType("int");
 

@@ -12,6 +12,7 @@ namespace SultanSklepBackend.Models
         public int? AddressID { get; set; }
         public int ProductID { get; set; }
         public string OperationNumber { get; set; }
+        public string OrderNotes { get; set; }
         public int Count { get; set; }
         public bool InCart { get; set; }
         public bool IsOrdered { get; set; }
